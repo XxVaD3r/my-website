@@ -9,16 +9,41 @@
 .nav-wrapper > .left-column >.logo-wrapper {
     display: flex;
     justify-content: left;
+    margin-right: 200px;
 }
 
 .nav-wrapper > .left-column > .logo-wrapper img {
     width: 175px;
     border-radius: 75px;
     margin: 12px;
+    filter: hue-rotate()
 }
 
 .nav-wrapper > .center-column > .link-nav-wrapper {
     padding: 100px;
     display: flex;
     justify-content: center;
+}
+
+.nav-wrapper > .link a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    transition: 0.1s;
+}
+
+.nav-wrapper > .link a:hover {
+   color: #00a2ff;
+   background-color: rgba(0, 181, 255, 0.05);
+   box-shadow: 0px 0px 119px 4px rgba(0,181,255,0.9);
+}
+
+.nav-wrapper > .right-column {
+    padding: 20px
+}
+
+.nav-wrapper > .page {
+    margin-left: 200px;
 }
