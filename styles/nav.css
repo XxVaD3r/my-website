@@ -8,7 +8,7 @@
 
 .nav-wrapper > .left-column >.logo-wrapper {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .nav-wrapper > .left-column > .logo-wrapper img {
@@ -24,6 +24,8 @@
 
 .nav-wrapper > .links-wrapper > .box {
     margin: 100px;
+    background-color: #333333;
+    padding: 4px;
 }
 
 
@@ -37,8 +39,6 @@
 
 .nav-wrapper > .links-wrapper > .box > .link a:hover {
    color: red;
-   text-decoration: none;
-   transition: 0.2s;
 }
 
 
@@ -48,13 +48,11 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
-    transition: 0.1s;
+    transition: 0.2s;
     font-size: 3.3em;
 }
 
 .nav-wrapper > .right-column > .page a:hover {
     color: red;
-    text-decoration: none;
-    transition: 0.1s;
 }
 

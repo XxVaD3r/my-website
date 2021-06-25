@@ -1,0 +1,40 @@
+/* Top "About" */
+
+.background {
+    background-image: url(../images/backgrounds/staticbg.png);
+    padding: 20px;
+    height: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.background > .box > .text {
+    color: #222222;
+    background-color: whitesmoke;
+
+}
+
+
+/* Content */
+
+.image-flex img {
+    padding-left: 50px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    float: left;
+}
+
+.about-wrapper {
+    margin-top: -30px;
+    padding-left: 50px;
+    padding-right: 20px;
+    line-height: 45px;
+}
