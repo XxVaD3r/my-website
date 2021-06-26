@@ -3,7 +3,7 @@
             flex-direction: column;
             height: 100%;
             width: 73px;
-            
+            line-height: 30px;
         }
 
         .nav-wrapper > .left-column > .logo-wrapper img {
