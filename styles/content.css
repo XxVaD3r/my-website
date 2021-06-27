@@ -1,0 +1,62 @@
+/* Top Title */
+
+.background {
+    background-image: url(../images/backgrounds/staticbg.png);
+    padding: 20px;
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background > .box > .text {
+    background-color: whitesmoke;
+    color: #222222;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+/* Content */
+
+.highlight > .box > .content-img img {
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    float: left;
+    background-color: #222222;
+    padding-right: 100%;
+} 
+
+.highlight > .box {
+    width: 84%;
+    
+}
+
+
+/* Hover effect & Formatting */
+
+.highlight > .box > .content {
+    display: flex;
+    justify-content: left; 
+    align-content: center;
+    width: 118%; /* THIS ONE TOO */
+    background-color: #222222;
+    line-height: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.highlight > .box > .content a:hover {
+    transition: 0.1s;
+    color: red;
+}
+
+.highlight > .box >.content a {
+    color: whitesmoke;
+    transition: 0.1s;
+    text-decoration: none;
+}

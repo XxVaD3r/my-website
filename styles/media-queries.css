@@ -2,7 +2,7 @@
         .nav-wrapper > .links-wrapper > .box > .link {
             flex-direction: column;
             height: 100%;
-            width: 73px;
+            width: 100px;
             line-height: 30px;
         }
 
